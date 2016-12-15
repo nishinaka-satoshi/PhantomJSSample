@@ -11,11 +11,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.Optional;
 
-/**
- * Created by satoshi nishinaka on 2016/12/15.
- */
 public class Main {
-  
+
   private static final String PHANTOMJS_PATH = System.getenv("PHANTOM_JS_PATH");
   private static final String[] PHANTOM_ARGS =
       new String[]{
